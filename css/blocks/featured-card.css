@@ -8,5 +8,23 @@
 }
 
 .featured-card__img {
+    height: 240px;
+    width: 300px;
     border-radius: 12px;
+}
+
+.featured-card__title {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.featured-card__description {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
 }
