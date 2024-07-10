@@ -1,0 +1,12 @@
+.featured-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.featured-list__item {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(33.33% - 30px);
+    /* box-shadow: 0px 10px 40px 0px #00000033; */
+}
